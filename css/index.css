@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color: #007AF3;
+  --primary-color: #007af3;
 }
 
 body {
-  background: #F2F2F2;
+  background: #f2f2f2;
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .navbar {
@@ -97,7 +97,7 @@ section {
 }
 
 section.features-section {
-  background: #20272E;
+  background: #20272e;
   color: white;
 }
 
@@ -106,8 +106,8 @@ ul.features-list {
   padding-left: 0.1em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  -ms-grid-columns: (minmax(19rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
 
 ul.features-list li {
@@ -118,7 +118,7 @@ ul.features-list li {
 }
 
 ul.features-list li:before {
-  content: '';
+  content: "";
   left: -2em;
   position: absolute;
   width: 20px;
@@ -138,7 +138,7 @@ ul.features-list li:before {
 }
 
 .testimonials-section li {
-  background: #006BD6;
+  background: #006bd6;
   text-align: center;
   width: 80%;
   border-radius: 1em;
@@ -149,7 +149,7 @@ ul.features-list li:before {
 .testimonials-section li img {
   width: 5em;
   height: 5em;
-  border: 5px solid #006BD6;
+  border: 5px solid #006bd6;
   border-radius: 50%;
   margin-top: -4.5em;
 }
@@ -164,14 +164,15 @@ label {
   margin-bottom: 0.5em;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 0.8em;
   margin-bottom: 1em;
   border-radius: 0.3em;
   border: 1px solid gray;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .send-message-cta {
@@ -203,7 +204,7 @@ nav {
   width: 66%;
   right: 0;
   top: 0;
-  background: #20272E;
+  background: #20272e;
   height: 100vh;
   padding: 1em;
 }
@@ -232,25 +233,26 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu-enter, .mobile-menu-exit {
+  .mobile-menu-enter,
+  .mobile-menu-exit {
     display: none;
   }
   .navbar .container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
+    grid-template-columns: 180px auto;
     -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
   }
   .navbar nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -299,8 +301,8 @@ nav li a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     text-align: left;
   }
   .hero .container .left-col {
@@ -373,7 +375,7 @@ nav li a:hover {
 
 @media only screen and (min-width: 1450px) {
   .features-section:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 10%;
     height: 20em;
@@ -382,7 +384,7 @@ nav li a:hover {
     top: -4em;
   }
   .features-section:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 200px;
     height: 20em;
